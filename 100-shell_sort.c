@@ -6,6 +6,7 @@
  * @size: Size of the array
  *
  */
+
 void shell_sort(int *array, size_t size)
 {
 	int interval = 1, inner, outer, valueToInsert;
@@ -36,4 +37,3 @@ void shell_sort(int *array, size_t size)
 		print_array(array, size);
 	}
 }
-
